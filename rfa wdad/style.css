@@ -1,0 +1,100 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6200ea; /* Roxo vibrante */
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+/* Seção do Portfólio */
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #e0f7fa; /* Fundo azul claro */
+}
+
+/* Estilo dos Itens de Portfólio */
+.portfolio-item {
+    background-color: #ffffff;
+    border: 3px solid #ff4081; /* Rosa chamativo */
+    border-radius: 10px;
+    width: 70%;
+    margin: 30px 0;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animação de Zoom ao Hover no item */
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+}
+
+.portfolio-item h2 {
+    color: #ff4081; /* Rosa chamativo */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.portfolio-item p {
+    font-size: 1.2em;
+    color: #616161; /* Texto acinzentado */
+}
+
+/* Botões com Animação */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #ff4081; /* Rosa chamativo */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f50057; /* Vermelho-rosa */
+    transform: scale(1.1); /* Animação de Zoom */
+}
+
+/* Rodapé */
+footer {
+    background-color: #6200ea; /* Roxo vibrante */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo das Páginas de Projeto */
+.project-detail {
+    padding: 60px;
+    text-align: center;
+}
